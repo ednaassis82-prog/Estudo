@@ -36,6 +36,19 @@ subtotal_2=preco_2*quantidade_2
 soma=subtotal_1+subtotal_2
 
 //saida
+  escreva("---RECIBO DA COMPRA---\n" )
+  escreva("item : " , produto_1, "\n" )
+  escreva("Qtde : " , quantidade_1 , "| Preço Unit : ", preco_1 , "|Subtotal:  ", subtotal_1 ,  "\n")
+  escreva("item : ", produto_2,"\n")
+  escreva("Qtde : " , quantidade_2 , "| Preço Unit : ", preco_2 , "|Subtotal:  ", subtotal_2 ,  "\n")
+  
+
+  // VALOR TOTAL DA COMPRA
+
+  escreva("------------------------------- \n")
+  escreva(" VALOR TOTAL DA COMPRA : R$ " ,soma,".00 \n")
+  escreva("------------------------------- \n")
+  
 
     
   }
