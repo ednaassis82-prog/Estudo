@@ -1,19 +1,28 @@
 programa {
 
-  real celsius,fahrenheit
+   real Preco, Desconto, Preco
+   cadeia Produto
 
   funcao inicio() {
 
-   escreva("Digite a temperatura em Celsius")  
-   leia(celsius)
+
+     //saida
 
 
-  
-    escreva("Digite a temperatura em Celsius : ", celcius, "\n")
+      escreva ("Digite o produto: ")
+      leia (Produto)
 
-    fahrenheit = (celcius*9.0/5.0) + 36
+     
+      escreva ("Digite o valor do produto: ")
+      leia (Preco)
 
-    escreva(" Digite a temperatura em Fahrenheit : " , fahrenheit)
+     //processamento
 
+      Desconto= Preco*0.05
+      Preco= Preco-Desconto
+
+     //Saída
+      escreva ("O valor do é ", Produto, " = ", Preco)
+ 
   }
 }

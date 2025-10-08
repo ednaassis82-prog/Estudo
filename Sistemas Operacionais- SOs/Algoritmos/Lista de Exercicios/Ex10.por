@@ -1,18 +1,23 @@
 programa {
-  cadeia apelido,comida
-inteiro idade
+
+   real Largura, Altura, Area, Litros
 
   funcao inicio() {
-  escreva("Digite seu apelido : ") 
-  leia(apelido)
+     //entrada
+     escreva ("Qual a largura da sua parede ? : ")
+     leia (Largura)
 
-  escreva("Digite minha idade : ")
-  leia(idade)
+     
+     escreva ("E qual a altura da sua parede ? : ")
+     leia (Altura)
 
-  escreva("Digite minha comida favorita : ")
-  leia(comida)
+     //processamento
 
-
-escreva(" seu Apelido : \n ", apelido, "minha Idade : \n " , idade, "minha Comida Favorita : \n ---Perfil do Usuário--- \n ")
+      Area= Largura*Altura
+      Litros= Area/2
+      
+     //Saída
+      escreva ("A área a ser pintada da sua parede  é ", Area, " em ", Litros, " litros de tinta.")
+ 
   }
 }

@@ -1,12 +1,13 @@
 
-w= int (input("digite meu nome"))
+nome = input("digite meu nome")
 
-w=int(input("digite minha idade"))
+idade =int(input("digite minha idade"))
 
 with open("aula9.txt","w")as arquivo:
-with open
+    arquivo.write(f"nome : {nome}\n")
+    arquivo.write(f"idade : {idade}\n")
 
-    
-    print(conteudo)
+
+
 
 

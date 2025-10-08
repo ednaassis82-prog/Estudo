@@ -1,14 +1,16 @@
 programa {
+  real dinheiro, dolar 
 
-  cadeia nome
-  cadeia numero
   funcao inicio() {
-   escreva (" Digite o nome da pessoa : ") 
-   leia(nome)
-   escreva("Digite o número de telefone : " )
-   leia(numero)
-  
-  escreva("Seu nome é :" , nome, "Seu número de telefone é :" , numero)
 
+    //entrada
+   escreva("Digite o valor em dinheiro que tem na carteira: ") 
+   leia(dinheiro)
+   //processamento
+
+   dolar=dinheiro/3.45
+
+   //saida
+   escreva("Posso comprar RS$", dolar, " Dolares. " )
   }
 }
